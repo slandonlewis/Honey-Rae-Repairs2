@@ -16,7 +16,7 @@ export const App = () => {
       <article className="tickets">
         {allTickets.map(ticket => {
           return (
-            <section className="tickets">
+            <section className="ticket">
               <header className="ticket-info">#{ticket.id}</header>
               <div>{ticket.description}</div>
               <footer>
